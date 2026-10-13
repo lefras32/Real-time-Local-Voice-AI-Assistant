@@ -1,0 +1,37 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+# Python environments
+.venv/
+venv/
+env/
+
+# Python bytecode and test/linter caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local recordings and generated audio
+*.wav
+*.mp3
+*.flac
+*.ogg
+
+# Logs
+*.log

@@ -125,10 +125,6 @@ For a meaningful time-to-first-audio measurement, time from the end of recording
 - **No speech recognized:** speak clearly, check the selected microphone, and make sure the recording is not silent.
 - **No sound from the selected speakers:** use a browser that supports `setSinkId`, or select the system default output.
 
-## License
-
-No license is included. Choose and add a license before publishing this project publicly; without one, standard copyright restrictions apply.
-
 ## Development
 
 Install the development dependencies and run the automated tests:

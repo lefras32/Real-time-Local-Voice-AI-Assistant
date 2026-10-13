@@ -1,6 +1,8 @@
 # Local Voice AI Assistant
 
-> **Welcome, player!** This is a local voice assistant with a retro web interface and a real-time speech pipeline.
+<img width="1906" height="915" alt="Снимок экрана 2026-10-14 003623" src="https://github.com/user-attachments/assets/56a95fd6-6b0a-496d-9e15-f48c458fa650" />
+
+> **Welcome!** This is a local voice assistant with a retro web interface and a real-time speech pipeline.
 
 This project records speech in your browser or from the command-line client, transcribes it locally with `faster-whisper`, streams a response from LM Studio, and sends each completed sentence to text-to-speech as soon as it is available.
 

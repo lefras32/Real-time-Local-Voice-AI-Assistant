@@ -32,7 +32,7 @@ flowchart LR
     TTS -->|MP3 audio frames| CLI
 ```
 
-The browser captures mono audio, converts it to 16 kHz WAV, and sends it to `/ws`. The server sends JSON status and transcript events, followed by `audio_start`, binary MP3 frames, and `audio_end` events for each sentence. The response finishes with `response_done`.
+The browser captures mono audio,  converts it to 16 kHz WAV, and sends it to `/ws`. The server sends JSON status and transcript events, followed by `audio_start`, binary MP3 frames, and `audio_end` events for each sentence. The response finishes with `response_done`.
 
 ## Get started in 3 steps
 
